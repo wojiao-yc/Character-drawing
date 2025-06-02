@@ -51,10 +51,7 @@ Character_drawing/
 
 ## ❓ FAQ
 **Q: Why is the output video laggy?**  
-A: Reduce `Canvas Size` or shorten the time range for faster processing.
+A: Reduce `Canvas Size`, increase character size or shorten the time range for faster processing.
 
 **Q: How to add custom characters?**  
-Modify `src/filters.py` → `ASCII_CHARS` variable (e.g., `@#%&*`).
-
-## 📜 License
-MIT License. Feel free to modify and distribute.
+Modify `src/video_processor.py` → `char_list` variable (e.g., `@#%&*`).
